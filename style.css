@@ -1,0 +1,90 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body,html {
+    width:100vw;
+    height:100vh;
+}
+
+body {
+    background:#232323;
+    color:black;
+}
+
+:root {
+    --wysokosc-tabeli:250px;
+}
+
+.div1 {
+    width:100%;
+    height:100vh;
+}
+
+.aktualnosci {
+    width: 40%;
+    height:100%;
+    background:#ff6633;
+    float:left;
+}
+
+.klasa {
+    width:60%;
+    height:100%;
+    background:#ff9933;
+    float:left;
+}
+
+h1 {
+    text-align:center;
+    margin: 30px 0;
+}
+
+p {
+    font-weight:bold;
+}
+
+.corobimy {
+    margin:10px;
+}
+
+.rada {
+    height:var(--wysokosc-tabeli);
+    width:80%;
+    margin: 20px 10%;
+}
+.rada div {
+    outline: 2px brown solid;
+    margin-bottom:2px;
+    margin-left:2px;
+    height:calc((var(--wysokosc-tabeli) - 2px) / 3);
+    width:calc(40% - 2px);
+    float:left;
+    outline-offset: -2px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.rada div:nth-child(1) {
+    height:calc(100% + 2px);
+    width:60%;
+    margin:0;
+}
+
+img {
+    height:300px;
+}
+
+h3 {
+width:100%;
+height:30px;
+background:#993300;
+position:absolute;
+bottom:0;
+align-items:center;
+font-size:25px;
+line-height:30px;
+}
